@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'lcars-iot-ui';
+
+  ngOnInit(){
+    var audio = new Audio('assets/sounds/voy_bridge.mp3');
+    audio.play();
+  }
+  
 }
