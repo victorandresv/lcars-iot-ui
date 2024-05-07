@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: rgb(11,58,82);
+    background: -moz-linear-gradient(100deg, rgba(11,58,82,1) 4%, rgba(1,5,23,1) 85%);
+    background: -webkit-linear-gradient(100deg, rgba(11,58,82,1) 4%, rgba(1,5,23,1) 85%);
+    background: linear-gradient(100deg, rgba(11,58,82,1) 4%, rgba(1,5,23,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b3a52",endColorstr="#010517",GradientType=1);
+}
+.logo-full-container{
+    position: absolute;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-table;
+}
+.logo-full-container:hover{
+    cursor: pointer;
+}
+.starfleet-logo-flat{
+    width: 230px;
+}
